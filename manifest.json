@@ -1,0 +1,24 @@
+{
+    "name": "Unminify JS",
+    "version": "1.0",
+    "description": "Unminify javaScript files easy",
+
+    "permissions": ["tabs"],
+    
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16":  "assets/img/16.png",
+        "32":  "assets/img/32.png",
+        "48":  "assets/img/64.png",
+        "128": "assets/img/128.png"
+      }
+    },
+    "icons": {
+        "16":  "assets/img/16.png",
+        "32":  "assets/img/32.png",
+        "48":  "assets/img/64.png",
+        "128": "assets/img/128.png"
+    },
+    "manifest_version": 2
+  }

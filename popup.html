@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/lib/fontawesome/css/all.css">
+
+    <style>
+        body {
+            padding: 0;
+            margin: -5px;
+        }
+        .card{
+            width: 200px;
+            height: auto;
+        }
+        .card-body{
+            align-self: center;
+        }
+        .btn{
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        div.card-header > div.form-group > textarea {
+            height: 200px;
+        }
+        div.card-header{
+            display: none;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="card">
+        <div class="card-body d-flex">
+            <button class="btn btn-light btn-icon-split">
+                <span class="icon text-white-50">
+                    <i class="fas fa-box-open"></i>
+                </span>
+                <span class="text">Unpack</span>
+            </button>
+        </div>
+        <div class="card-header">
+            <div class="form-group">
+                <h5 class="display-5 text-center">Success!</h5>
+                <small>ctr + c</small>
+                <textarea class="form-control"></textarea>
+            </div>
+        </div>
+    </div>
+
+
+<script src="/assets/lib/prettier/standalone.js"></script>
+<script src="/assets/lib/prettier/parser-babel.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
